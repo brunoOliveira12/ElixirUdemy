@@ -8,11 +8,9 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 by adding `identicon` to your list of dependencies in `mix.exs`:
 
 ```elixir
-def deps do
-  [
-    {:identicon, "~> 0.1.0"}
-  ]
-end
+defp deps do
+    [{:egd, github: "erlang/egd"}]
+  end
 ```
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
