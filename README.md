@@ -1,6 +1,5 @@
 # Cards
 
-# ElixirUdemy
 The Complete Elixir and Phoenix Bootcamp
 
 ## Installation
