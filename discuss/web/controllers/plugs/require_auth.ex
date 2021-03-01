@@ -3,8 +3,8 @@ defmodule Discuss.Plugs.RequireAuth do
   import Phoenix.Controller
 
   alias Discuss.Router.Helpers
-  def init(_params) do
 
+  def init(_params) do
   end
 
   def call(conn, _params) do
